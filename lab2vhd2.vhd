@@ -14,10 +14,10 @@ end entity;
 
 architecture arch_lab2 of lab2vhd2 is
 	component lab2v2 is port(
-		clk_clk									: in  std_logic                    := 'X';
-		pio_0_external_connection_export : in  std_logic_vector(9 downto 0) := (others => 'X');
+		clk_clk									: in  std_logic                     := 'X';
+		pio_0_external_connection_export : in  std_logic_vector(9 downto 0)  := (others => 'X');
 		pio_1_external_connection_export : out std_logic_vector(11 downto 0) := (others => 'X');
-      reset_reset_n  						: in  std_logic                    := 'X');
+      reset_reset_n  						: in  std_logic                     := 'X');
 	end component;
 	 
 	component bcd_to_sseg is port(
