@@ -21,7 +21,10 @@ La figure 2 présente la configuration Qsys du système.
 ![image](https://github.com/ESN2024/david_lab2/assets/124572489/d7eac2f8-202f-4c62-bce0-6deec8312aeb)
 *Figure 2. Configuration Qsys.*
 # 2. Résultats
-A l'issue des séances de TPs, 
+Les afficheurs 7-segments sont fonctionnels et affichent bien un compteur mis à jour chaque seconde grâce à l'intervention d'un timer, commme escompté.
 
+La vidéo 1 présente le système en fonctionnement.
 
+*Vidéo 1. Affichage du compteur sur les afficheurs 7-segments.*
 # Conclusion
+A l'issue de cette séance de TP, nous avons pu apprendre à gérer les interruptions d'un *timer* et nous avons surtout pu apprendre qu'un système SPS sur FPGA a l'avantage de présenter des fonctions classiques de calcul et de gestion temps-réel d'un ordinateur/micro-contrôleur mais en plus de celà présente l'avantage d'avoir accès à des accélérations matérielles qui peuvent être très modulables (dans notre cas le décodeur BCD).
