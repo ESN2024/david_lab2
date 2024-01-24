@@ -23,6 +23,10 @@ La figure 2 présente la configuration Qsys du système.
 # 2. Résultats
 Les afficheurs 7-segments sont fonctionnels et affichent bien un compteur mis à jour chaque seconde grâce à l'intervention d'un timer, commme escompté.
 
+
+https://github.com/ESN2024/david_lab2/assets/124572489/664c6be4-f1f8-4779-8993-d0f9b0591114
+
+
 La vidéo 1 présente le système en fonctionnement.
 
 *Vidéo 1. Affichage du compteur sur les afficheurs 7-segments.*
